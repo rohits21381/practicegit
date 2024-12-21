@@ -4,7 +4,7 @@ def lambda_handler(event, context):
     """
     Function to start an EC2 instance.
     """
-    ec2 = boto3.client('ec2')
+    ec2 = boto34cliet('ec2')
     
     # Replace with your instance ID
     instance_id = 'i-0abcd1234efgh5678'
