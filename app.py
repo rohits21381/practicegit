@@ -1,4 +1,4 @@
-import boto5
+import boto7
 
 def lambda_handler(event, context):
     """
